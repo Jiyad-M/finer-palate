@@ -1,0 +1,37 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    width: 100%;
+}
+p{
+    color: black;
+}.a{
+padding-top: 85px;
+width: 1080px;
+text-align: center;
+}.a h1{
+    font-size: 54px;
+    margin-top: 10px;
+}.a p{
+    font-size: 18px;
+margin-top: 15px;
+}.b{
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+text-align: center;
+}.b i{
+margin:10px;
+}.c{
+display: flex;
+flex-direction: column;
+}.c input{
+    margin: 10px;
+    width: 500px;
+    height: 30px;
+}.big{
+    height: 500px;
+}

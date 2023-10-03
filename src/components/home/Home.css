@@ -1,0 +1,124 @@
+
+
+.coverpic {
+    background-blend-mode: multiply;
+    background-image: url("https://finerpalate.com/wp-content/uploads/2022/03/Dinner-3.jpg"), linear-gradient(90deg, #000000 0%, #ffffff 100%) !important;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.coverpic h1 {
+    font-size: 110px;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    padding: 24px;
+
+    margin-left: 160px;
+    width: 50%;
+}
+
+.about {
+    padding: 20px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+
+
+
+}
+
+.pic {
+    padding: 20px 20px 70px;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.disc {
+    flex:1;
+    padding: 20px;
+    display: flex;
+    align-items: end;   
+}
+
+.pic img {
+    max-width: 100%;
+
+}.disc1 h1{
+    margin: 10px;
+    font-size: 50px;
+    font-weight: 500;
+   letter-spacing: 3px;
+}.disc1 p{
+    margin: 10px;
+    color: gray;
+    line-height: 2rem;
+    font-size: 15px;
+}.disc1 i{
+border: solid ;
+border-left:hidden;
+border-radius: 50%;
+padding: 20px;
+position: relative;
+right: 20px;
+}.disc1{
+    width: 500px;
+}.disc1 a{
+    margin: 10px;
+    font-size: 17px;
+text-decoration: none;
+color: black;
+position: absolute;
+}.bluecolor{
+
+    margin-top: 50px;
+    background: #00457a;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+}.all-item{
+    width: 1080px;
+    margin-top: 20px;
+    
+}.text{
+    margin-bottom: 50px;
+}.text h1{
+    font-size: 60px;
+    font-weight: 500;
+}.text p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.2rem;
+    color: white;
+}.photos{
+    display: flex;
+}.num{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    
+}.num div{
+    text-align: center;
+    width: 338px;
+    margin-top: 30px;
+}.num div h1{
+    font-size: 60px;
+}
+.num div h2{
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(248, 248, 248);
+    opacity: 80%;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.num div i{
+    font-size: 40px;
+    color: rgb(248, 248, 248);
+   
+}

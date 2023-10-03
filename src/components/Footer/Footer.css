@@ -1,0 +1,15 @@
+.footer{
+    background-image: linear-gradient(#474747,black);
+    height  : 159px;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 140px;
+font-size: 14px;
+}
+.footer div p {
+width: 190px;
+}.footer div i{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}

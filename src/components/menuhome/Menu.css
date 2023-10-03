@@ -1,0 +1,29 @@
+.home-image {
+    background: white;
+    color: black;
+    margin: 16px;
+    width: 338px;height: 270px;
+    margin-top: 50px;
+}.imagecondent{
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    width: 300px;
+
+}
+
+.imagecondent img {
+    width: 208px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 0.75rem black);    
+}h1{
+    font-size: 20px;
+    margin-top: 20px;  
+    font-weight: 500;             
+}p{
+    line-height: 1.5rem;   
+    color: grey;
+    font-size: 15px;
+    overflow: hidden;
+    
+}
