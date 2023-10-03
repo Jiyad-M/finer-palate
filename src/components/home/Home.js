@@ -13,7 +13,7 @@ function Home() {
             <div className="coverpic">
                 <h1>Tast Beyond The Table</h1>
             </div>
-            <div className="about">
+            <div className="aboutHome">
                 <div className="pic">
                     <img src="https://finerpalate.com/wp-content/uploads/2022/08/Crudo-Snapper-800x588-1.png" alt="" />
                 </div>

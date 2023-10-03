@@ -26,17 +26,24 @@ function Contact() {
                     <i class="fa-solid fa-square-xmark"></i>
                 </div>
 
-                </div>
-                <div className="c">
-                    <form action="" method="post">
+            </div>
+            <div className="c">
+                <form action="" method="post">
+                    <label htmlFor="name">Name</label>
+                    <input placeholder='Jiyad' name='name' type="text" /> 
+                    <label htmlFor="email">Email</label>
 
-                    <input placeholder='Jiyad' name='NAME' type="text" />
-                    <input placeholder='jiyad8201@gmail.com' name='EMAIL' type="email" />
-                    <input placeholder='08547989535' name='PHONE' type="tel" />
-                    <input  className='big' placeholder='message' name='MESSAGE' type="text" />
+                    <input placeholder='jiyad@gmail.com' id='email' name='email' type="email" />
+                    <label htmlFor="phone">Phone</label>
+                <input placeholder='08547989535' name='phone' type="tel" />
+                <label htmlFor="message">message</label>
+                    <input className='big' id='message' placeholder='message' name='message' type="text" />
+
                     <button type="submit">Send</button>
-                    
-                    < /form>
+                </form>
+                <img src="https://finerpalate.com/wp-content/uploads/2022/08/Pork-Belly-4-600x600-1.png" alt="" />
+
+
 
             </div>
 

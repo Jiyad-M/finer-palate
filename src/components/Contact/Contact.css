@@ -26,12 +26,26 @@ text-align: center;
 }.b i{
 margin:10px;
 }.c{
+    display: flex;
+    flex-direction: row;
+}.c img{
+    width: 400px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+
+}.c form{
 display: flex;
 flex-direction: column;
+}.c button{
+    width: 100px;height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #00457a;
+    color: white;
 }.c input{
     margin: 10px;
     width: 500px;
     height: 30px;
-}.big{
-    height: 500px;
+}#message{
+    height: 100px;
 }
